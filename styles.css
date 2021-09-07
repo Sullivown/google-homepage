@@ -36,10 +36,25 @@ nav a:hover {
 .nav-right {
     margin-left: 5px;
     margin-right: 15px;
+    display: flex;
+    flex-wrap: none;
+    align-items: center;
 }
 
-footer {
-    background-color: #f2f2f2;
+.nav-item {
+    margin: 8px;
+}
+
+.profile-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
 }
 
 #main-div {
@@ -48,4 +63,98 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#search-bar-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 20px;
+}
+
+#search-bar-div:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-bar-div input {
+    width: 500px;
+    height: 40px;
+    border: 0;
+    font-size: 16px;
+}
+
+#search-bar-div input:focus {
+    outline: none;
+}
+
+.search-icon {
+    padding: 15px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 6px;
+}
+
+#footer-section-2 {
+    border-top: 1px solid rgb(218, 220, 224);
+}
+
+.footer-section a {
+    color: #70757a;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+#footer-middle a {
+    padding-left: 0px;
+    position: relative;
+    right: 60px;
+}
+
+#leaf-icon {
+    position: relative;
+    right: 55px;
+    height: 14px;
+    width: auto;
 }

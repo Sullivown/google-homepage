@@ -8,14 +8,14 @@
     <header>
         <nav>
             <div class='nav-left'>
-                <a href='#'>About</a>
-                <a href='#'>Store</a>
+                <a class='nav-item' href='#'>About</a>
+                <a class='nav-item' href='#'>Store</a>
             </div>
             <div class='nav-right'>
-                <a href='#'>Gmail</a>
-                <a href='#'>Images</a>
-                <img src='images/apps.svg'>
-                <img src='images/profile.svg'>
+                <a class='nav-item' href='#'>Gmail</a>
+                <a class='nav-item' href='#'>Images</a>
+                <img class='nav-item' src='images/apps.svg' alt="Apps icon">
+                <div class="nav-item profile-circle">D</div>
             </div>
         </nav>
     </header>
@@ -25,9 +25,9 @@
                 <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png">
             </div>
             <div id="search-bar-div">
-                <img src="images/search.svg">
+                <img class="search-icon" src="images/search.svg" alt="Search magnifying glass">
                 <input type="text">
-                <img src="images/mic.svg">
+                <img class="search-icon" src="images/mic.svg" alt="Voice search">
             </div>
             <div id="buttons-div">
                 <button>Google Search</button>
@@ -36,8 +36,27 @@
         </div>
     </main>
     <footer>
-        <div class="footer-section">Footer div 1</div>
-        <div class="footer-section">Footer div 2</div>
+        <div class="footer-section">
+            <div>
+                <a class='nav-item' href='#'>United Kingdom</a>
+            </div>
+        </div>
+        <div class="footer-section" id="footer-section-2">
+            <div>
+                <a class='nav-item' href='#'>Advertising</a>
+                <a class='nav-item' href='#'>Business</a>
+                <a class='nav-item' href='#'>How Search works</a>
+            </div>
+            <div id="footer-middle">
+                <img id="leaf-icon" src="images/leaf.png" alt="Carbon neutral leaf icon">
+                <a class='nav-item' href='#'>Carbon neutral since 2007</a>
+            </div>
+            <div>
+                <a class='nav-item' href='#'>Privacy</a>
+                <a class='nav-item' href='#'>Terms</a>
+                <a class='nav-item' href='#'>Settings</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
