@@ -63,6 +63,12 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 100px;
+}
+
+#img-div img {
+    height: 110px;
 }
 
 #search-bar-div {
